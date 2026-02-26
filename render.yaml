@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: clinical-thinking-frontend
+    runtime: static
+    buildCommand: echo 'Static site ready'
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
