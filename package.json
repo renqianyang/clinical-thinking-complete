@@ -1,0 +1,8 @@
+{
+  "name": "clinical-thinking-complete",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Static site ready for deployment'",
+    "start": "npx serve . -p 3000"
+  }
+}
